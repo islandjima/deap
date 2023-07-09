@@ -56,7 +56,7 @@ toolbox.register("select", tools.selTournament, tournsize=3)
 toolbox.register("evaluate", evalTSP)
 
 def main():
-    random.seed(169)
+    random.seed(235327)
 
     pop = toolbox.population(n=300)
 
